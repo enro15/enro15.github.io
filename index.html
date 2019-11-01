@@ -1,10 +1,10 @@
 <html>
 <head>
-    <title>Login page</title>
+    <title>Login</title>
 </head>
 <body>
 <form>
-    <label for="pswd">Enter your password: </label>
+    <label for="pswd">Enter the password.</label>
     <input type="password" id="pswd">
     <input type="button" value="Submit" onclick="checkPswd();" />
 </form>
@@ -16,9 +16,10 @@
              window.location="welcome.html";
         }
         else{
-            alert("Passwords do not match.");
+            alert("Incorrect password!");
         }
     }
 </script>
 </body>
 </html>
+
